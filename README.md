@@ -6,7 +6,8 @@ This dynamic Web 3.0 application facilitates effortless Ethereum transactions on
 
 1. [Technologies and Frameworks](#technologies-and-frameworks)
 2. [Setup and Usage](#setup-and-usage)
-3. [Design Choices](#design-choices)
+3. [How to Use](#how-to-use)
+4. [Design Choices](#design-choices)
 
 ---
 
@@ -55,6 +56,41 @@ This dynamic Web 3.0 application facilitates effortless Ethereum transactions on
 
     ```bash
    npm run dev
+
+---
+
+## How to Use
+
+To use the platform, follow these steps:
+
+   1. Install MetaMask:
+       -  Install the MetaMask browser extension from [MetaMask's official website](https://metamask.io/).
+
+   2. Create an Account:
+       -  Launch MetaMask and create an Ethereum account.
+
+   3. Switch to SepoliaETH Test Network:
+       -  In MetaMask, switch to the SepoliaETH test network.
+
+   4. Get Test ETH:
+       -  Use an online faucet to get some test ETH for the SepoliaETH test network.
+
+   5. Connect Your Wallet:
+       -  On the DApp's website, if your wallet is not connected, click on the "Connect Wallet" option.
+
+   6. Perform Transactions:
+       -  Once your wallet is connected, you can perform transactions by following these steps:
+          -   Enter the amount you want to send.
+          -   Specify the recipient's wallet address.
+          -   Add an optional message and a keyword for the blockchain network.
+          -   Click "Send Now."
+
+   7. Confirm Transaction:
+       -  MetaMask will open and ask you to confirm the transaction along with gas fees.
+
+   8. Transaction Completion:
+       -  After confirmation, the page will load for some time, and then it will reload.
+        Below, you will be able to see the latest transaction details, including a GIF, the amount, and the keyword.
 
 ---
 
